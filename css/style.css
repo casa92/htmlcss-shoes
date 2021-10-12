@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*COMMON*/
+body {
+    font-family: "Rubik mono one";
+}
+img {
+    width: 100%;
+}
+.yellow-text {
+    color: #ffff00;
+}
+.green-text {
+    color: #008000;
+}
+/*HEADER*/
+/*nav*/
+nav {
+    z-index: 20;
+    position: fixed;
+    top: 40px;
+    right: 20px;
+}
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 30px ;
+}
+/* .circle {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    text-align: center;  
+} */
+.circle a {
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 55px;
+    vertical-align: middle;
+    color: black;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    display: inline-block;
+}
+
+/*MAIN*/
+
+.container {
+    position: relative;
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+}
+.item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*background*/
+.back {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.red-back {
+    background-color: red;    
+}
+.green-back {
+    background-color: green;
+}
+.yellow-back {
+    background-color: yellow;
+}
+/*title*/
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 400;
+}
